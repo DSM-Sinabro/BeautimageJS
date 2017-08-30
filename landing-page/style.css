@@ -7,10 +7,6 @@ body{
     margin: 0;
 }
 
-#section1{
-    position: relative;    
-}
-
 .backimage{
     background-image: url('./img/wallpaper.jpg');
     min-height: 1600px;
@@ -30,22 +26,12 @@ body{
     display: table;
     margin: auto;
     padding-top: 17%;
-}
 
-/* 설명 section */
-
-.description{
-    color: white;
-    font-size: 2em;
-    font-family: 'Pacifico', cursive;
-    display: table;
-    margin: auto;
-}
-.description:hover{
     -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
     -webkit-mask-size: 200%;
     animation: shine 2s infinite;
 }
+
 
 @-webkit-keyframes shine {
     from {
@@ -56,6 +42,17 @@ body{
       -webkit-mask-position: -50%;
     }
   }
+
+/* 설명 section */
+
+.description{
+    color: white;
+    font-size: 2em;
+    font-family: 'Pacifico', cursive;
+    display: table;
+    margin: auto;
+}
+
 
 /* 카드 들어갈 자리 */
 
@@ -84,5 +81,7 @@ body{
     float: left;
     margin-top: 7em;
     margin-left: 7em;
+    background-color: white;
+    border-radius: 10px;
 }
 
