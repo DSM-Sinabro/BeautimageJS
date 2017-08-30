@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+section{
+    height : 1500px;
+    width : 100%;
+}
+body{
+    margin: 0;
+}
+
+#section1{
+    position: relative;    
+}
+
+.backimage{
+    background-image: url('./img/wallpaper.jpg');
+    min-height: 1600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* Beautimage.js */
+
+.title{
+    color: white;
+    font-size: 6em;
+    font-family: 'Pacifico', cursive;
+    display: table;
+    margin: auto;
+    padding-top: 17%;
+}
+
+/* 설명 section */
+
+.description{
+    color: white;
+    font-size: 2em;
+    font-family: 'Pacifico', cursive;
+    display: table;
+    margin: auto;
+}
+.description:hover{
+    -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+    -webkit-mask-size: 200%;
+    animation: shine 2s infinite;
+}
+
+@-webkit-keyframes shine {
+    from {
+      -webkit-mask-position: 150%;
+    }
+    
+    to {
+      -webkit-mask-position: -50%;
+    }
+  }
+
+/* 카드 들어갈 자리 */
+
+.smallBack{
+    width: 80%;
+    height: 600px;
+    position: relative;
+    margin : 30% auto 0 auto;
+}
+
+/* 카드들 */
+
+.cards{
+    min-height: 1200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline;
+}
+
+.card1, .card2, .card3{
+    width: 20%;
+    height: 60%;
+    border: 1px solid white;
+    float: left;
+    margin-top: 7em;
+    margin-left: 7em;
+}
+
