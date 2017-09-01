@@ -9,14 +9,17 @@ body{
 
 .backimage{
     background-image: url('./img/wallpaper.jpg');
-    min-height: 1600px;
+    min-height: 1800px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-
+#clickTitle{
+    text-decoration: none;
+    color: inherit;
+}
 /* Beautimage.js */
 
 .title{
@@ -56,7 +59,7 @@ body{
 
 /* 카드 들어갈 자리 */
 
-.smallBack{
+#smallBack{
     width: 80%;
     height: 600px;
     position: relative;
@@ -85,7 +88,19 @@ body{
     border-radius: 10px;
 }
 
+.card1{
+    display: inline-block;
+}
+
 .openImage{
     width: 100%;
+    height: 60%; 
+}
+
+.openImage img{
+    width: 90%;
+    height: 100%;
+    display: contain;
+    margin-left: 5%;
 }
 
