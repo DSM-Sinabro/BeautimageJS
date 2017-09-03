@@ -13,3 +13,10 @@ $(document).ready(function(){
         }
     });
 });
+
+
+$(document).ready(function(){
+    $(".card").hover(function(){
+        $(this).css("display", "none");
+    })
+})

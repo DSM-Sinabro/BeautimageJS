@@ -66,19 +66,15 @@ body{
     margin : 30% auto 0 auto;
 }
 
+#smallBack{
+    opacity: 1;
+}
+
+
+ 
 /* 카드들 */
 
-/* .cards{
-    min-height: 1200px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: inline;
-    background-color: #F4EBD2;
-} */
-
-.card1, .card2, .card3{
+.card{
     width: 300px;
     height: 300px;
     border: 1px solid white;
@@ -88,26 +84,34 @@ body{
     margin-left: 4em;
     background-color: white;
     border-radius: 50%;
-    opacity: 0.4;
-    
+    position: relative;
+    z-index: 1;
 }
+
+
 .openImage{
     width: auto;
     height: 70%; 
+    position: relative;
 }
 
 .openImage img{
     width: 80%;
     height: 100%;
-    margin-left: 1em;
-    margin-top: 1em;
+    margin-left: 2em;
+    margin-top: 2em;
     
 }
-.image1{
-    padding-left: 1em;
-   
-}
+/* 
+.openDescription{
+    width : 300px;
+    height: 300px;
+    border: 1px solid white;
+    float: left;
+    margin : 12em auto 0 4em;
+    background-color: white; 
+    border-radius: 50%;
+    position: relative;
+    z-index: 2;
+} */
 
-.image2{
-    padding-left: 1em;
-}
